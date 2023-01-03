@@ -5,6 +5,7 @@ import gradio as gr
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 
 #if you have OpenAI API key as a string, enable the below
+# openai.api_key = "XXXXXXXX"
 openai.api_key = open('../chatgpt_key.txt', 'r').read().rstrip()
 print(openai.api_key)
 
